@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cargill - Home</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Compiled CSS (after you compile styles.scss) -->
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="images/graphics/logo.svg" alt="Cargill">
+        </div>
+        <div class="header__right">
+            <div class="header-actions">
+                <a href="" class="action-btn menu-btn">
+                    <img src="images/icons/menu.svg" alt="Menu">
+                </a>
+
+                <a href="" class="action-btn">
+                    <img src="images/icons/settings.svg" alt="Cài đặt">
+                </a>
+
+                <a href="" class="action-btn">
+                    <img src="images/icons/bell.svg" alt="Thông báo">
+                    <span class="badge">00+</span>
+
+                </a>
+                <div class="user-box">
+                    <img src="images/icons/user.svg" alt="">
+                    <span>Chào, BinhDT</span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main-section">
+        
+
+
+  <div class="grid">
+    <a href="#" class="card">
+      <img src="images/icons/icon-1.svg" alt="">
+      <h3>Danh sách xe đến nhà máy</h3>
+    </a>
+    <a href="#" class="card">
+      <img src="images/icons/icon-2.svg" alt="">
+      <h3>Xử lý đăng tải</h3>
+    </a>
+    <a href="#" class="card">
+      <img src="images/icons/icon-3.svg" alt="">
+      <h3>Danh sách gọi xe vào cân</h3>
+    </a>
+    <a href="#" class="card">
+      <img src="images/icons/icon-4.svg" alt="">
+      <h3>Danh sách xe đã cân đầu vào</h3>
+    </a>
+    <a href="#" class="card">
+      <img src="images/icons/icon-5.svg" alt="">
+      <h3>Danh sách gọi xe vào máng xuất</h3>
+    </a>
+    <a href="#" class="card">
+      <img src="images/icons/icon-6.svg" alt="">
+      <h3>Danh sách xe hoàn thành xuất hàng</h3>
+    </a>
+    <a href="#" class="card">
+      <img src="images/icons/icon-7.svg" alt="">
+      <h3>Danh sách xe đã cân ra</h3>
+    </a>
+    <a href="#" class="card">
+      <img src="images/icons/icon-8.svg" alt="">
+      <h3>Cập nhật thông tin đăng kiểm xe</h3>
+    </a>
+    <a href="#" class="card">
+      <img src="images/icons/icon-9.svg" alt="">
+      <h3>Báo cáo tổng hợp</h3>
+    </a>
+  </div>
+
+    </main>
+    <!--FOOTER PC-->
+    <footer class="footer">
+        <p>CÔNG TY TNHH CARGILL VIỆT NAM - CHI NHÁNH HÀ NAM<br>
+            Địa chỉ KCN Đồng Văn II, thị xã Duy Tiên, tỉnh Hà Nam<br>
+            Số liên hệ hỗ trợ khách hàng: <b>0226.625.1580</b></p>
+    </footer>
+    <!--END FOOTER PC-->
+
+    <!--Jquery lib-->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/simple-scrollbar.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <!-- build:script -->
+    
+
+
+    <div class="clearfix"></div>
+
+    <script>
+        $('.open-popup-link').magnificPopup({
+            type: 'inline',
+            midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+            mainClass: 'mfp-with-zoom',
+            fixedContentPos: false,
+            fixedBgPos: true,
+            overflowY: 'auto',
+            closeBtnInside: true,
+            preloader: false,
+            removalDelay: 300,
+        });
+    </script>
+</body>
+
+</html>
